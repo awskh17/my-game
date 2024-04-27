@@ -57,7 +57,7 @@
             function refresh()
             {
              score=JSON.parse(localStorage.getItem('score'))||{wins:0,loses:0,equals:0};
-             document.getElementById("result").innerHTML='you'+`<img src="C:/Users/AWS/Desktop/${x}.jpg" class="moveicon U" >`+`<img src="C:/Users/AWS/Desktop/${y}.jpg" class="moveicon com">`+ 'computer';
+             document.getElementById("result").innerHTML='you'+`<img src="C:/Users/AWS/aws/game/my-game/${x}.jpg" class="moveicon U" >`+`<img src="C:/Users/AWS/aws/game/my-game/${y}.jpg" class="moveicon com">`+ 'computer';
              document.getElementById("wins").innerHTML=score.wins;
              document.getElementById("loses").innerHTML=score.loses;
              document.getElementById("equals").innerHTML=score.equals;
